@@ -1,0 +1,1516 @@
+# Copyright (C) 2022 Delite Studio S.r.l.
+# This file is distributed under the same license as the Push Notifications for WordPress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Push Notifications for WordPress 6.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/output\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-11-25T16:00:37+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: pnfw\n"
+
+#. Plugin Name of the plugin
+msgid "Push Notifications for WordPress (Lite)"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://products.delitestudio.com/wordpress/push-notifications-for-wordpress/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Send push notifications to iOS and Android devices when you publish a new post."
+msgstr ""
+
+#. Author of the plugin
+msgid "Delite Studio S.r.l."
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.delitestudio.com/"
+msgstr ""
+
+#. Plugin Name of the plugin
+#: admin/class-pnfw-admin-settings.php:1071
+msgid "Push Notifications for WordPress"
+msgstr ""
+
+#. Description of the plugin
+msgid "Send push notifications to iOS, Android, Safari, and Web Push devices when you publish a new post or custom post type."
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:12
+#: admin/class-pnfw-admin-subscribers.php:17
+#: admin/class-pnfw-admin-subscribers.php:50
+#: admin/class-pnfw-admin-subscribers.php:268
+#: admin/class-pnfw-admin-tokens.php:17
+#: admin/class-pnfw-admin-tokens.php:55
+msgid "Are you sure you want to do this?"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:26
+#: admin/class-pnfw-admin.php:165
+#: admin/class-pnfw-admin.php:166
+msgid "Debug"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:27
+#: admin/class-pnfw-admin-subscribers.php:12
+#: admin/class-pnfw-admin-tokens.php:12
+msgid "Export CSV"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:32
+#: admin/class-pnfw-admin-debug.php:38
+#: admin/class-pnfw-admin-debug.php:43
+msgid "Error: %s is disabled (please fix)."
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:50
+msgid "Warning: WPML does not support users categories. Some spurious warnings may be generated. They can all be turned off disabling <code>WP_DEBUG</code> mode or disabling the option <em>Copy taxonomy to translations</em> in WPML &rarr; Translation options. However is <strong>not</strong> guaranteed to work."
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:54
+#: admin/class-pnfw-admin-debug.php:90
+msgid "Logs"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:72
+msgid "Empty Log"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:89
+msgid "Log"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:97
+#: admin/class-pnfw-admin.php:901
+msgid "Text"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:98
+#: admin/class-pnfw-admin.php:900
+msgid "Type"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:99
+#: admin/class-pnfw-admin.php:899
+msgid "Timestamp"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:156
+#: admin/class-pnfw-admin-debug.php:257
+msgid "System"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:159
+#: admin/class-pnfw-admin-debug.php:259
+#: admin/class-pnfw-admin-settings.php:189
+msgid "iOS"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:162
+#: admin/class-pnfw-admin-debug.php:261
+#: admin/class-pnfw-admin-settings.php:190
+msgid "Android"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:165
+#: admin/class-pnfw-admin-debug.php:263
+msgid "Alert"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:168
+#: admin/class-pnfw-admin-debug.php:265
+#: admin/class-pnfw-admin-settings.php:191
+#: admin/class-pnfw-admin-settings.php:239
+#: admin/class-pnfw-admin-settings.php:242
+msgid "Safari"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:171
+#: admin/class-pnfw-admin-debug.php:267
+#: admin/class-pnfw-admin-settings.php:192
+#: admin/class-pnfw-admin-settings.php:263
+#: admin/class-pnfw-admin-settings.php:266
+#: admin/class-pnfw-admin-settings.php:269
+msgid "Web"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:174
+#: admin/class-pnfw-admin-debug.php:269
+#: admin/class-pnfw-admin-settings.php:193
+msgid "Telegram"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:177
+#: admin/class-pnfw-admin-debug.php:271
+msgid "Other"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:208
+msgid "No logs were found."
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:220
+msgid "All types"
+msgstr ""
+
+#: admin/class-pnfw-admin-debug.php:273
+msgid "Not set"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:35
+#: admin/class-pnfw-admin.php:135
+#: admin/class-pnfw-admin.php:136
+msgid "OAuth"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:44
+msgid "API Keys"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:49
+msgid "OAuth is disabled. Anyone can connect to the APIs without authorization. For better security we recommend to enable OAuth (requires changes to client)."
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:54
+msgid "Enable OAuth & Generate API Keys"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:57
+msgid "Consumer Key:"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:58
+msgid "Consumer Secret:"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:65
+msgid "Disable OAuth & Revoke Keys"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:68
+msgid "IMPORTANT: After revoking the API Keys clients who used them will no longer be able to connect."
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:86
+msgid "HTTP/HTTPS"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:92
+msgid "Accept both HTTP and HTTPS requests"
+msgstr ""
+
+#: admin/class-pnfw-admin-oauth.php:98
+#: admin/class-pnfw-admin-settings.php:1088
+msgid "Save settings"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:46
+#: admin/class-pnfw-admin.php:123
+#: admin/class-pnfw-admin.php:124
+#: admin/class-pnfw-admin.php:521
+msgid "Settings"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:188
+msgid "General"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:194
+msgid "Misc"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:195
+msgid "Documentation"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:468
+msgid "Send push notifications"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:479
+msgid "Send Push Notifications for"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:505
+msgid "Categories Filterable by App Subscribers"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:537
+msgid "Send push notifications to iOS devices"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:541
+msgid "Use sandbox environment"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:548
+msgid "Bundle ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:557
+#: admin/class-pnfw-admin-settings.php:743
+msgid "Key ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:566
+#: admin/class-pnfw-admin-settings.php:752
+msgid "Team ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:575
+#: admin/class-pnfw-admin-settings.php:761
+msgid "Key Content"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:579
+#: admin/class-pnfw-admin-settings.php:765
+msgid "Obtaining the private key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:586
+msgid "Notification sound file"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:590
+msgid "The name of a sound file in the app bundle or in the <code>Library/Sounds</code> folder of the app’s data container. If the sound file doesn’t exist or <code>default</code> is specified as the value, the default alert sound is played. The audio must be in one of the audio data formats that are compatible with system sounds (<code>aiff</code>, <code>wav</code>, or <code>caf</code>). See <a href=\"%s\">Preparing Custom Alert Sounds</a> for details."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:603
+msgid "URL Scheme"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:608
+msgid "When a user registers on this site, he will receive a confirmation email with a verification link. If you have filled in the URL Scheme, after a successful verification from a mobile device the user will be redirected to the URL indicated."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:619
+msgid "Send push notifications to Android devices"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:625
+msgid "Server Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:633
+msgid "Obtaining the Server Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:644
+msgid "Apache Cordova"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:649
+msgid "In the Android notification payload add the <code>message</code> field"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:652
+msgid "Check this box if you are using Apache Cordova with PushPlugin. If you enable this option, it will always be sent Data message regardless of what you selected above."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:663
+msgid "Firebase"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:668
+msgid "Use the <em>Notification message</em> instead of the <em>Data message</em>"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:671
+msgid "With the Notification message FCM automatically displays the message to end-user devices on behalf of the client app. With the Data message client app is responsible for processing data messages. More info in the <a href=\"https://firebase.google.com/docs/cloud-messaging/concept-options\">official FCM documentation</a>."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:693
+msgid "Send push notifications to Safari desktops"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:699
+msgid "P12 certificate (.p12)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:704
+#: admin/class-pnfw-admin-settings.php:778
+#: admin/class-pnfw-admin-settings.php:791
+#: admin/class-pnfw-admin-settings.php:804
+#: admin/class-pnfw-admin-settings.php:817
+#: admin/class-pnfw-admin-settings.php:830
+#: admin/class-pnfw-admin-settings.php:859
+#: admin/class-pnfw-admin.php:346
+msgid "Upload"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:704
+#: admin/class-pnfw-admin-settings.php:778
+#: admin/class-pnfw-admin-settings.php:791
+#: admin/class-pnfw-admin-settings.php:804
+#: admin/class-pnfw-admin-settings.php:817
+#: admin/class-pnfw-admin-settings.php:830
+#: admin/class-pnfw-admin-settings.php:859
+msgid "Change"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:714
+msgid "Expires"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:722
+msgid "P12 Certificate Password"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:726
+msgid "Obtaining the Certificates"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:732
+msgid "Website Push ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:736
+msgid "The Website Push ID, as specified in your registration with the Member Center. The string must start with <code>web.</code>."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:772
+msgid "Website icon 16x16 (.png)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:785
+msgid "Website icon 32x32 (.png)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:798
+msgid "Website icon 64x64 (.png)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:811
+msgid "Website icon 128x128 (.png)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:824
+#: admin/class-pnfw-admin-settings.php:853
+msgid "Website icon 256x256 (.png)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:832
+msgid "Icons must be 72 DPI PNGs."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:847
+msgid "Send push notifications to Web Push (Chrome, Firefox, Edge, Opera and others) devices"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:876
+msgid "Authentication (VAPID)"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:879
+msgid "Browsers need to verify your identity. A standard called <a href=\"https://datatracker.ietf.org/doc/rfc8292/\" target=\"_blank\">VAPID</a> can authenticate you for all browsers. You'll need to create and provide a public and private key for your server. These keys must be safely stored and should not change."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:884
+msgid "Subject"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:888
+msgid "The subject needs to be a URL or a mailto: URL. This provides a point of contact in case the push service needs to contact the message sender."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:894
+msgid "Private Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:903
+#: admin/class-pnfw-admin.php:857
+msgid "Public Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:913
+msgid "Create VAPID keys"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:915
+msgid "Press this button to automatically create the public and private key for your server."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:924
+msgid "%s notifications require PHP version %s or later."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:930
+msgid "%s notifications require PHP extension for %s to be enabled on your server."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:936
+msgid "To activate %s notifications your website should be under HTTPS protocol."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:946
+msgid "Send push notifications to Telegram"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:962
+msgid "Get the API Token"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:978
+msgid "Enable wpautop filter to convert double line-breaks in the content into HTML paragraphs"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:983
+msgid "Force badge count to 1"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:988
+msgid "Don't require email verification"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:991
+msgid "Check this box if you do not require devices to be activated only after confirmation of the email address (use with caution)."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:995
+msgid "Clean up statistics"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:998
+msgid "Check this box if you would like to completely remove all statistics data when they are outdated."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1001
+msgid "Remove data on uninstall"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1004
+msgid "Check this box if you would like to completely remove all of its data when the plugin is deleted."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1017
+msgid "Fix progress bar"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1020
+msgid "Press this button if after several hours the \"Sending notifications...\" progress bar does not disappear."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1033
+msgid "Clean tokens"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1036
+msgid "Press this button to remove inactive tokens (i.e. tokens to whom at least 50 notifications have been sent, but which have not read any of them)."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1046
+msgid "See the online documentation"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1058
+msgid "About this Plugin"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1061
+msgid "Developed by"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1074
+msgid "This is our basic solution for small personal blogs. We also offer a full-featured plugin, Push Notifications for WordPress, designed for all the other websites."
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1076
+msgid "More info"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1077
+msgid "Differences"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1102
+#: admin/class-pnfw-admin-settings.php:1154
+msgid "Required libcurl >= 7.46.0"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1106
+#: admin/class-pnfw-admin-settings.php:1158
+msgid "Missing HTTP/2 support for libcurl"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1110
+msgid "Missing Key ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1114
+msgid "Missing Team ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1118
+msgid "Missing Private Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1122
+msgid "Missing Bundle ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1133
+msgid "Missing Server Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1162
+msgid "Missing Safari P12 certificate"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1165
+msgid "Safari P12 certificate should be a P12 file"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1169
+msgid "Missing Safari P12 certificate password"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1173
+msgid "Missing Safari Key ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1177
+msgid "Missing Safari Team ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1181
+msgid "Missing Safari Private Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1185
+msgid "Missing Website Push ID"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1189
+msgid "Website icon 16x16 should be a PNG of 16x16 pixels"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1193
+msgid "Website icon 32x32 should be a PNG of 32x32 pixels"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1197
+msgid "Website icon 64x64 should be a PNG of 64x64 pixels"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1201
+msgid "Website icon 128x128 should be a PNG of 128x128 pixels"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1205
+#: admin/class-pnfw-admin-settings.php:1219
+msgid "Website icon 256x256 should be a PNG of 256x256 pixels"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1223
+msgid "Missing VAPID Subject"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1227
+msgid "Missing VAPID Private Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1231
+msgid "Missing VAPID Public Key"
+msgstr ""
+
+#: admin/class-pnfw-admin-settings.php:1242
+msgid "Missing API Token"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:11
+msgid "Stats"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:12
+msgid "Overview"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:19
+msgid "Read by OS"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:26
+msgid "New subscribers per day"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:33
+msgid "Subscribers per category"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:40
+#: admin/class-pnfw-admin-subscribers.php:141
+#: admin/class-pnfw-admin.php:785
+msgid "Devices"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:47
+msgid "App subscribers"
+msgstr ""
+
+#: admin/class-pnfw-admin-stats.php:54
+#: admin/class-pnfw-admin-tokens.php:11
+#: admin/class-pnfw-admin-tokens.php:138
+#: admin/class-pnfw-admin.php:155
+#: admin/class-pnfw-admin.php:156
+msgid "Tokens"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:11
+#: admin/class-pnfw-admin-subscribers.php:128
+#: admin/class-pnfw-admin.php:145
+#: admin/class-pnfw-admin.php:146
+msgid "App Subscribers"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:21
+msgid "Removed from the App Subscribers page the user with ID %s."
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:32
+msgid "Completely deleted the user %s."
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:37
+msgid "Disassociated the user %s from blog %s"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:44
+msgid "User deleted"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:60
+#: admin/class-pnfw-admin-tokens.php:68
+msgid "This is a test notification"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:94
+#: admin/class-pnfw-admin-tokens.php:103
+msgid "Notification sent to %s device"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:99
+#: admin/class-pnfw-admin-tokens.php:108
+msgid "There was an error sending the notification. For more information, see the <a href='%s'>Debug</a> page"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:127
+#: push-notifications-for-wordpress.php:308
+#: push-notifications-for-wordpress.php:521
+msgid "App Subscriber"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:136
+#: admin/class-pnfw-admin.php:780
+msgid "Username"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:137
+msgid "E-mail"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:138
+#: admin/class-pnfw-admin.php:782
+#: push-notifications-for-wordpress.php:354
+msgid "Categories"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:139
+#: admin/class-pnfw-admin.php:783
+msgid "Notifications Sent"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:140
+#: admin/class-pnfw-admin.php:784
+msgid "Posts Viewed"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:142
+#: admin/class-pnfw-admin.php:786
+msgid "Excluded Categories"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:308
+#: admin/class-pnfw-admin-tokens.php:244
+msgid "Delete"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:316
+#: admin/class-pnfw-admin-tokens.php:248
+msgid "Send test notification"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:327
+msgid "Remove categories"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:330
+msgid "Assign to %s"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:337
+msgid "No app subscribers were found."
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:355
+msgid "All users"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:379
+#: includes/api/class-pnfw-api-posts.php:157
+#: includes/rest-api/class-pnfw-rest-posts-controller.php:228
+msgid "Anonymous"
+msgstr ""
+
+#: admin/class-pnfw-admin-subscribers.php:383
+msgid "Registered"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:30
+msgid "Removed from the Tokens page the token with ID %s."
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:35
+#: includes/api/class-pnfw-api-register.php:263
+#: includes/api/class-pnfw-api-unregister.php:21
+#: includes/class-pnfw-cron-cleaner.php:53
+#: includes/desktop/class-pnfw-desktop-devices.php:74
+#: includes/notifications/class-pnfw-notifications.php:161
+#: includes/rest-api/class-pnfw-rest-register-controller.php:296
+#: includes/rest-api/class-pnfw-rest-unregister-controller.php:40
+#: includes/web/class-pnfw-web-admin.php:190
+msgid "Automatically deleted the anonymous user %s (%s) since left without tokens."
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:50
+msgid "Item deleted"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:137
+#: admin/class-pnfw-admin-tokens.php:145
+#: admin/class-pnfw-admin.php:850
+msgid "Token"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:146
+msgid "User"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:147
+#: admin/class-pnfw-admin.php:852
+msgid "Registration timestamp"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:148
+#: admin/class-pnfw-admin.php:851
+msgid "Operating System"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:149
+#: admin/class-pnfw-admin.php:854
+msgid "Language"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:150
+msgid "Status"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:210
+#: admin/class-pnfw-admin.php:855
+msgid "Active"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:213
+msgid "To be confirmed"
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:255
+msgid "No tokens were found."
+msgstr ""
+
+#: admin/class-pnfw-admin-tokens.php:267
+msgid "All OS"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:109
+#: admin/class-pnfw-admin.php:110
+#: admin/class-pnfw-admin.php:398
+msgid "Push Notifications"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:245
+msgid "Users to which the notifications were sent"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:246
+msgid "Users who read the notifications"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:247
+msgid "New subscribers"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:248
+msgid "Anonymous app subscribers"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:249
+msgid "Registered app subscribers"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:250
+msgid "Unsubscribed"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:251
+msgid "No data available in this chart"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:252
+msgid "With active notifications"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:253
+msgid "With notifications disabled"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:347
+msgid "Select"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:369
+#: admin/class-pnfw-admin.php:435
+msgid "Send and make visible only to"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:370
+msgid "Make visible only to"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:424
+msgid "Send for this %s on update"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:426
+msgid "Send for this %s on publish"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:439
+msgid "All"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:444
+msgid "Anonymous users"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:449
+msgid "Registered users"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:528
+msgid "Automatically deleted excluded category %d."
+msgstr ""
+
+#: admin/class-pnfw-admin.php:779
+#: admin/class-pnfw-admin.php:853
+msgid "User ID"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:781
+msgid "Email"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:856
+msgid "Activation Code"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:858
+msgid "Auth Token"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:956
+msgid "Sending notifications..."
+msgstr ""
+
+#: admin/class-pnfw-admin.php:957
+msgid "Cleaning tokens..."
+msgstr ""
+
+#: admin/class-pnfw-admin.php:981
+msgid "Users"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:993
+#: push-notifications-for-wordpress.php:353
+msgid "User Category"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:996
+msgid "Select User Category"
+msgstr ""
+
+#: admin/class-pnfw-admin.php:1004
+msgid "There are no user categories available."
+msgstr ""
+
+#: includes/am/admin/class-wc-api-manager-menu.php:31
+#: includes/am/admin/class-wc-api-manager-menu.php:32
+msgid "License"
+msgstr ""
+
+#: includes/am/admin/class-wc-api-manager-menu.php:99
+msgid "Login to your <a href=\"%s\">My Account page</a> to find a valid API License Key."
+msgstr ""
+
+#: includes/api/class-pnfw-api-activate.php:11
+#: includes/api/class-pnfw-api-activate.php:21
+#: includes/api/class-pnfw-api-activate.php:27
+#: includes/api/class-pnfw-api-activate.php:110
+#: includes/api/class-pnfw-api-activate.php:115
+#: includes/rest-api/class-pnfw-rest-activate-controller.php:36
+#: includes/rest-api/class-pnfw-rest-activate-controller.php:46
+#: includes/rest-api/class-pnfw-rest-activate-controller.php:52
+msgid "We were not able to activate your account. Please contact support."
+msgstr ""
+
+#: includes/api/class-pnfw-api-activate.php:32
+#: includes/rest-api/class-pnfw-rest-activate-controller.php:57
+msgid "Thank you for activating your account."
+msgstr ""
+
+#: includes/api/class-pnfw-api-activate.php:44
+#: includes/rest-api/class-pnfw-rest-activate-controller.php:67
+msgid "New confirmed app subscriber on your site %s: %s"
+msgstr ""
+
+#: includes/api/class-pnfw-api-activate.php:46
+#: includes/rest-api/class-pnfw-rest-activate-controller.php:69
+msgid "[%s] New Confirmed App Subscriber"
+msgstr ""
+
+#: includes/api/class-pnfw-api-activate.php:80
+msgid "Error"
+msgstr ""
+
+#: includes/api/class-pnfw-api-activate.php:80
+msgid "Success"
+msgstr ""
+
+#: includes/api/class-pnfw-api-activated.php:12
+#: includes/rest-api/class-pnfw-rest-activated-controller.php:14
+msgid "Your email needs to be verified. Go to your email inbox and find the message from us asking you to confirm your address. Or make sure your email address is entered correctly."
+msgstr ""
+
+#: includes/api/class-pnfw-api-categories.php:21
+#: includes/rest-api/class-pnfw-rest-categories-controller.php:50
+msgid "Categories Filterable by App Subscribers not set"
+msgstr ""
+
+#: includes/api/class-pnfw-api-categories.php:61
+#: includes/api/class-pnfw-api-posts.php:109
+#: includes/api/class-pnfw-api-user-categories.php:63
+#: includes/api/class-pnfw-api.php:14
+#: includes/api/class-pnfw-api.php:96
+#: includes/desktop/class-pnfw-desktop.php:17
+#: includes/rest-api/class-pnfw-rest-controller.php:116
+msgid "Invalid HTTP method"
+msgstr ""
+
+#: includes/api/class-pnfw-api-posts.php:118
+msgid "Post not found."
+msgstr ""
+
+#: includes/api/class-pnfw-api-posts.php:122
+msgid "You do not have permission to access this post."
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:23
+#: includes/api/class-pnfw-api-user-categories.php:56
+#: includes/rest-api/class-pnfw-rest-register-controller.php:43
+#: includes/rest-api/class-pnfw-rest-user-categories-controller.php:87
+msgid "User category not found"
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:38
+#: includes/rest-api/class-pnfw-rest-register-controller.php:58
+#: includes/web/class-pnfw-web-admin.php:83
+msgid "prevToken not found"
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:58
+#: includes/notifications/class-pnfw-notifications.php:133
+#: includes/rest-api/class-pnfw-rest-register-controller.php:78
+#: includes/web/class-pnfw-web-admin.php:90
+msgid "Attempted an update of an %s token equal to a token already present: %s."
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:161
+#: includes/api/class-pnfw-api.php:71
+#: includes/api/class-pnfw-api.php:79
+msgid "Invalid %s"
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:219
+#: includes/rest-api/class-pnfw-rest-register-controller.php:252
+msgid "Reassign %s token %s from user %s to user %s."
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:343
+#: includes/rest-api/class-pnfw-rest-register-controller.php:372
+msgid "Thank you for joining %s!"
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:345
+#: includes/rest-api/class-pnfw-rest-register-controller.php:374
+msgid "To confirm your registration, please click on the following link:"
+msgstr ""
+
+#: includes/api/class-pnfw-api-register.php:348
+#: includes/rest-api/class-pnfw-rest-register-controller.php:377
+msgid "Welcome to %s"
+msgstr ""
+
+#: includes/api/class-pnfw-api-registered.php:12
+#: includes/rest-api/class-pnfw-rest-registered-controller.php:14
+msgid ""
+"Token not registered.\n"
+"To solve the problem please uninstall and reinstall the app."
+msgstr ""
+
+#: includes/api/class-pnfw-api-unregister.php:15
+#: includes/desktop/class-pnfw-desktop-devices.php:62
+#: includes/desktop/class-pnfw-desktop-devices.php:68
+#: includes/rest-api/class-pnfw-rest-unregister-controller.php:34
+#: includes/web/class-pnfw-web-admin.php:184
+msgid "Unable to delete token"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:24
+msgid "os parameter invalid"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:35
+#: includes/rest-api/class-pnfw-rest-controller.php:103
+msgid "lang parameter invalid"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:51
+msgid "Mandatory parameter %s missing"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:104
+msgid "Parameter %s is missing"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:119
+#: includes/rest-api/class-pnfw-rest-controller.php:130
+msgid "Failed to sort parameters"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:133
+msgid "Signature method is invalid"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:146
+#: includes/rest-api/class-pnfw-rest-controller.php:153
+msgid "Provided signature does not match"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:201
+#: includes/desktop/class-pnfw-desktop.php:9
+#: includes/rest-api/class-pnfw-rest-controller.php:188
+#: push-notifications-for-wordpress.php:764
+msgid "Unauthorized"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:206
+#: includes/desktop/class-pnfw-desktop.php:13
+#: includes/rest-api/class-pnfw-rest-controller.php:193
+#: includes/telegram/class-pnfw-telegram-admin.php:141
+#: includes/web/class-pnfw-web-admin.php:269
+#: push-notifications-for-wordpress.php:768
+msgid "Not Found"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:211
+#: includes/desktop/class-pnfw-desktop.php:21
+#: includes/rest-api/class-pnfw-rest-controller.php:198
+#: includes/telegram/class-pnfw-telegram-admin.php:145
+#: includes/web/class-pnfw-web-admin.php:273
+#: push-notifications-for-wordpress.php:772
+msgid "Internal Server Error"
+msgstr ""
+
+#: includes/api/class-pnfw-api.php:220
+#: includes/rest-api/class-pnfw-rest-controller.php:207
+msgid "%s API Error (%s): %s, %s."
+msgstr ""
+
+#: includes/class-pnfw-api-manager.php:149
+msgid "License Activation"
+msgstr ""
+
+#: includes/class-pnfw-api-manager.php:150
+msgid "License Deactivation"
+msgstr ""
+
+#: includes/class-pnfw-api-manager.php:355
+msgid "The Push Notifications for WordPress API License Key has not been activated, so the plugin is inactive! %sClick here%s to activate the license key and the plugin."
+msgstr ""
+
+#: includes/class-pnfw-api-manager.php:374
+msgid "<b>Warning!</b> You're blocking external requests which means you won't be able to get %s updates. Please add %s to %s."
+msgstr ""
+
+#: includes/class-pnfw-clean-process.php:40
+msgid "Cleaning completed."
+msgstr ""
+
+#: includes/class-pnfw-cleaner.php:25
+msgid "Cleaning started."
+msgstr ""
+
+#: includes/class-pnfw-sender-manager.php:62
+msgid "Notifications for the %s %s deliberately not sent"
+msgstr ""
+
+#: includes/class-pnfw-sender-process.php:18
+msgid "Post %d has been deleted, abort sending process."
+msgstr ""
+
+#: includes/class-pnfw-sender-process.php:23
+msgid "Starting %s notifications"
+msgstr ""
+
+#: includes/class-pnfw-sender-process.php:41
+#: includes/class-pnfw-sender-process.php:53
+#: includes/class-pnfw-sender-process.php:65
+#: includes/class-pnfw-sender-process.php:77
+#: includes/class-pnfw-sender-process.php:90
+#: includes/class-pnfw-sender-process.php:106
+msgid "Do not send %s notifications"
+msgstr ""
+
+#: includes/class-pnfw-sender-process.php:109
+msgid "Finished %s notifications"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-admin.php:57
+msgid "Later"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-admin.php:58
+msgid "Continue"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-admin.php:59
+msgid "Subscribe to get the latest updates"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-admin.php:60
+msgid "Click on Allow when prompted about Notifications."
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-admin.php:97
+msgid "The Safari push notifications certificate is expired on %s. Renew it now and upload it <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-admin.php:102
+msgid "The Safari push notifications certificate is about to expire on %s. Renew it soon and upload it <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-devices.php:25
+#: includes/telegram/class-pnfw-telegram-admin.php:53
+#: includes/web/class-pnfw-web-admin.php:119
+msgid "Registering device."
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-devices.php:57
+#: includes/web/class-pnfw-web-admin.php:173
+msgid "Forgetting device."
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-devices.php:88
+msgid "Only POST and DELETE request allowed"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-log.php:10
+msgid "Empty log content"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-log.php:15
+msgid "Log content is not a JSON"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-log.php:19
+msgid "Log: %s"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:17
+msgid "P12 certificate"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:18
+msgid "P12 certificate password"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:24
+msgid "Temporary directory is not accessible"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:44
+msgid "Empty package"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:76
+msgid "16x16 icon"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:79
+msgid "32x32 icon"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:83
+msgid "64x64 icon"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:86
+msgid "128x128 icon"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:89
+msgid "256x256 icon"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop-packages.php:92
+msgid "website push ID"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop.php:25
+#: includes/telegram/class-pnfw-telegram-admin.php:149
+#: includes/web/class-pnfw-web-admin.php:277
+msgid "%s %s: %s."
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop.php:35
+#: includes/desktop/class-pnfw-desktop.php:49
+msgid "Safari %s is not correctly set"
+msgstr ""
+
+#: includes/desktop/class-pnfw-desktop.php:39
+msgid "Safari %s does not exists"
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:30
+msgid "Google API Key is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:80
+msgid "You could retry to send it late in another request."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:84
+msgid "Check that the request contains a registration ID."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:88
+msgid "Make sure the message was addressed to a registration ID whose package name matches the value passed in the request."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:92
+msgid "Make sure the Sender Id (Project Number) in your App is correct."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:96
+msgid "Check that the total size of the payload data included in a message does not exceed 4096 bytes."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:100
+msgid "Check that the payload data does not contain a key that is used internally by FCM."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:104
+msgid "Check that the value used in time_to_live is an integer representing a duration in seconds between 0 and 2,419,200."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:108
+msgid "Reduce the number of messages sent to this device."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:128
+msgid "Invalid argument (%s): %s"
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:130
+msgid "FCM didn't return a 200 or 503 status (%s): %s"
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-android.php:132
+#: includes/notifications/class-pnfw-notifications-android.php:140
+#: includes/notifications/class-pnfw-notifications-ios.php:130
+#: includes/notifications/class-pnfw-notifications-safari.php:118
+msgid "Could not send message (%s): %s"
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-ios.php:36
+msgid "iOS Key ID is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-ios.php:43
+msgid "iOS Team ID is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-ios.php:50
+msgid "iOS private key is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-ios.php:57
+msgid "iOS bundle ID is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-safari.php:30
+msgid "Safari Key ID is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-safari.php:37
+msgid "Safari Team ID is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-safari.php:44
+msgid "Safari Private Key is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-safari.php:51
+msgid "Safari Website Push ID is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-telegram.php:23
+msgid "Telegram API Token is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-telegram.php:72
+#: includes/notifications/class-pnfw-notifications-web.php:95
+msgid "Could not send message (%s)"
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-web.php:31
+msgid "VAPID Subject is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-web.php:37
+msgid "VAPID Private Key is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications-web.php:43
+msgid "VAPID Public Key is not correctly set."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications.php:47
+msgid "Processing new chunk with %d tokens from offset %d"
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications.php:140
+msgid "Updated %s token from %s to %s."
+msgstr ""
+
+#: includes/notifications/class-pnfw-notifications.php:149
+msgid "Removed invalid %s token: %s."
+msgstr ""
+
+#: includes/web/class-pnfw-web-admin.php:86
+msgid "Updating device."
+msgstr ""
+
+#: includes/web/class-pnfw-web-admin.php:178
+msgid "Unable to delete encryption keys"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:23
+msgid "To activate Push Notifications for WordPress you must first disable Push Notifications for Posts and Push Notifications for WordPress (Lite)"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:24
+#: push-notifications-for-wordpress.php:218
+#: push-notifications-for-wordpress.php:231
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:217
+msgid "Push Notifications for WordPress requires PHP version %s or later."
+msgstr ""
+
+#: push-notifications-for-wordpress.php:230
+msgid "Push Notifications for WordPress is incompatible with network activation."
+msgstr ""
+
+#: push-notifications-for-wordpress.php:352
+msgid "User Categories"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:355
+msgid "Search User Categories"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:356
+msgid "Popular User Categories"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:357
+msgid "All User Categories"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:358
+msgid "Edit User Category"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:359
+msgid "Update User Category"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:360
+msgid "Add New User Category"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:361
+msgid "New User Category Name"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:362
+msgid "Separate user categories with commas"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:363
+msgid "Add or remove user categories"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:364
+msgid "Choose from the most popular user categories"
+msgstr ""
+
+#: push-notifications-for-wordpress.php:445
+msgid "Automatically deleted the tokens for user %s."
+msgstr ""
+
+#: push-notifications-for-wordpress.php:485
+#: push-notifications-for-wordpress.php:580
+#: push-notifications-for-wordpress.php:599
+#: push-notifications-for-wordpress.php:619
+#: push-notifications-for-wordpress.php:630
+#: push-notifications-for-wordpress.php:651
+msgid "Upgrading from version %d."
+msgstr ""
+
+#: push-notifications-for-wordpress.php:576
+#: push-notifications-for-wordpress.php:595
+#: push-notifications-for-wordpress.php:615
+#: push-notifications-for-wordpress.php:626
+#: push-notifications-for-wordpress.php:647
+#: push-notifications-for-wordpress.php:655
+msgid "Db version %d upgraded."
+msgstr ""
